@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(99, 126, 199);
+    height: 200px;
+    margin: 10px;
+    width: 935px;
+    padding: 10px;
+}
+#yellow1, #yellow2{
+    background-color: rgb(185, 221, 87);
+    display: inline-block;
+    height: 100px;
+    margin: 20px;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 300px;
+    padding: 10px;
+}
+#green{
+    background-color: rgb(26, 170, 81);
+    display: inline-block;
+    height: 410px;
+    margin: 10px;
+    width: 610px;
+    padding: 10px;
+}
+#violet{
+    background-color: rgb(154, 23, 180);
+    display: inline-block;
+    height: 410px;
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+}
+#blue1,#blue2,#blue3{
+    background-color: rgb(175, 197, 209);
+    display: inline-block;
+    height: 130px;
+    margin: 20px;
+    width: 130px;
+    padding: 0;
+}

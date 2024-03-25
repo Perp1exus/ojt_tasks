@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(101, 109, 106, 0.5);
+    padding: 30px;
+    text-align: center;
+    position: static;
+}
+h1{
+    color: whitesmoke;
+}
+#line{
+    border: 1px solid whitesmoke;
+    border-style: solid none;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+    margin-right:100px;
+    margin-left: 100px;
+    padding: 0;
+    overflow: hidden;
+}  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:left;
+}
+li a:hover {
+    background-color: #111;
+}
+nav{
+    width: 700px;
+    margin-top: 10px;
+    background-color: #33333386;
+    position: relative;
+    left: 5px;
+}
+#steam{
+    text-align: center;
+    padding: 0px;
+    border: 1px solid black;
+    width: 235px;
+    margin-left: 710px;
+    margin-top: -45px;
+    background-color: #00030079;
+    color: antiquewhite;
+    position: fixed;
+    border-radius: 10px;
+}
+.gallery{
+    display: inline-block;
+    margin: 7px;
+    border: 5px solid rgb(158, 240, 206);
+    width: 200px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.gallery:hover{
+    border: 5px solid rgb(31, 153, 147);
+}
+.gallery .name {
+    text-align: left;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+#borderg{
+    background-color: rgba(9, 22, 4, 0.568);
+    padding: 10px; 
+    width: 680px;
+    height: 350px;
+    position: relative;
+    left: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#about{
+    padding: 30px;
+    width: 175px;
+    background-color: rgba(4, 13, 44, 0.63);
+    position: static;
+    margin-left: 710px;
+    margin-top: -370px;
+    border-radius: 10px;
+    color: antiquewhite;
+}
+#about h3{
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to bottom, rgba(32, 150, 110, 0.349), rgba(24, 100, 81, 0.507)),url(dotabg.jpg); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+#italized { 
+    color: rgb(214, 225, 226);
+    font-size: large;
+    margin-top: 30px;
+    padding: 10px;
+    font-style: italic; 
+    text-align: center;
+}
+#team{
+    margin: 20px;
+    margin-top: 30px;
+    padding: 0px;
+    width: 680px;
+    height: 375px;
+    background-color: rgba(18, 85, 65, 0.61);
+    text-align: center;
+    border-radius: 10px;
+    position: static;
+}
+#team img{
+    width: 300px;
+    float: left;
+    border-radius: 10px;
+}
+#context{
+    display: inline;
+    padding: 20px;
+    font-size: small;
+    color: rgb(200, 215, 216);
+}
+#context h2{
+    padding: 30px;
+}
+#context p{
+    padding-bottom: 30px;
+}
+#esl img{
+    padding: 1px;
+    height: 230px;
+    width: 230px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 710px;
+    margin-top: -390px;
+}
+#bottom{
+    padding: 30px;
+    color: aquamarine;
+    background-color: #17664e7e;
+}
+#bottom button{
+    background-color: rgba(107, 173, 151, 0.685); 
+}
+h5{
+    padding: 0;
+    color: antiquewhite;
+    display: inline;
+    position: relative;
+    bottom: 50px;
+    left: 800px;
+}

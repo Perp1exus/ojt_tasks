@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(28, 39, 138);
+    height: 200px;
+    width: 945px;
+    padding: 5px;
+    margin: 10px;
+}
+#purple{
+    background-color: rgb(129, 49, 204);
+    display: inline-block;
+    height: 300px;
+    margin: 10px;
+    width: 300px;
+    padding: 5px;
+}
+#green{
+    background-color: rgb(19, 117, 41); 
+    display: inline-block;
+    margin: 10px;
+    margin-right: 5px;
+    height: 300px;
+    width: 620px;
+}
+footer{
+    background-color: rgb(236, 73, 8);
+    margin: 10px;
+    height: 90px;
+    width: 945px;
+}

@@ -1,0 +1,110 @@
+body{
+    background-image: url(bgbody.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: #323b2f;
+    border: 1px solid #bcd4ae;
+    position: relative;
+    left: 40px;
+    padding: 5px;
+    width: 500px;
+}
+h1{ 
+    border: 1px solid #f5f5f5;
+    border-right: none;
+    border-left: none;
+    display: inline;
+    color: #f9fff0;
+    font-family: "Bungee Shade", sans-serif;
+    font-style: normal;
+    position: relative;
+    left: 160px;
+    text-align: center;
+    width: 300px;
+}
+button{
+    background-color: #323b2f;
+    color: #dadfc2;
+    font-family: "Goldman", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#controls{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 5px;
+}
+#game{
+    margin: 10px;
+}
+#stats{
+    border: 2px solid #e0e4c7;
+    background: #424d3c;
+    color: #f9fff0;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Expletus Sans", sans-serif;
+}
+#bg1{
+    bottom: 370px;
+    height: 630px;
+    width: 620px;
+    right: 10px;
+    position: relative;
+}
+.container{
+    border: 10px solid #495545;
+    height: 600px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    padding: 10px;
+    width: 600px;
+}
+.inside_container{
+    background-image: url(bg1.jpg);
+    background-position: center;
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    border: 10px double #dadab8;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    
+}
+#monsterStats{
+    border: 3px solid #e0e4c7;
+    background-color: #424d3c;
+    color: #f9fff0;
+    display: flex;
+    font-family: "Expletus Sans", sans-serif;
+    margin: 5px;
+    justify-content: space-around;
+    padding: 5px;
+    visibility: hidden;
+}
+#text{
+    background-color: #a0a896;
+    border: 5px solid #323b2f;
+    color: #293425;
+    font-family: "Goldman", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    padding: 4px;
+}
+.stat{
+    padding: 5px;
+}
+button:hover{
+    background-color:#dadfc2;
+    color: #323b2f;
+}
+button:active{
+    background-color: #323b2f;
+    color: #dadfc2;
+}

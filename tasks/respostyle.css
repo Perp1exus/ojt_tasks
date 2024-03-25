@@ -1,0 +1,111 @@
+h1{
+    color: rgb(0, 89, 255);
+    font-size: 3em;
+}
+section{
+    background-color: rgb(0, 81, 255);
+    border: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+    margin: 0px;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+}
+@media only screen and (max-width: 540px) {
+    h1{
+        color: rgb(128, 0, 0);
+        font-size: 1em;
+    }
+    section{
+        background-color: rgb(128, 0, 0);
+        border: 1px solid rgb(0, 0, 0);
+        display: inline-block;
+        margin: 0px;
+        width: 230px;
+        height: 120px;
+    }
+}
+@media only screen and (min-width: 540px) {
+    h1{
+        color: rgb(0, 128, 0);
+        font-size: 2em;
+    }
+    section{
+        background-color: rgb(0, 128, 6);
+        border: 1px solid rgb(0, 0, 0);
+        display: inline-block;
+        margin: 0px;
+        width: 230px;
+        height: 120px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    h1{
+        color: rgb(0, 128, 0);
+        font-size: 2em;
+    }
+    section{
+        background-color: rgb(0, 128, 6);
+        border: 1px solid rgb(0, 0, 0);
+        display: inline-block;
+        margin: 0px;
+        width: 300px;
+        height: 120px;
+    }
+}
+@media only screen and (min-width: 800px) {
+    h1{
+        color: rgb(0, 128, 0);
+        font-size: 2em;
+    }
+    section{
+        background-color: rgb(0, 128, 6);
+        border: 1px solid rgb(0, 0, 0);
+        display: inline-block;
+        margin: 0px;
+        width: 350px;
+        height: 120px;
+    }
+}
+@media only screen and (min-width: 820px) {
+    h1{
+        color: rgb(0, 17, 255);
+        font-size: 3em;
+    }
+    section{
+        background-color: rgb(0, 17, 255);
+        border: 1px solid rgb(0, 0, 0);
+        display: inline-block;
+        margin: 0px;
+        width: 170px;
+        height: 170px;
+    }
+}
+@media only screen and (min-width: 900px) {
+    h1{
+        color: rgb(0, 17, 255);
+        font-size: 3em;
+    }
+    section{
+        background-color: rgb(0, 17, 255);
+        border: 1px solid rgb(0, 0, 0);
+        display: inline-block;
+        margin: 0px;
+        width: 180px;
+        height: 180px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    h1{
+        color: rgb(0, 17, 255);
+        font-size: 3em;
+    }
+    section{
+        background-color: rgb(0, 17, 255);
+        border: 1px solid rgb(0, 0, 0);
+        display: inline-block;
+        margin: 0px;
+        width: 220px;
+        height: 220px;
+    }
+} 
